@@ -1,3 +1,5 @@
+import myImage from "../assets/images/image.webp";
+
 export const HeroSection = () => {
   return (
     <>
@@ -6,7 +8,7 @@ export const HeroSection = () => {
           <div className="">
             <img
               className="w-[240px] mx-auto mb-5"
-              src="/assets/images/image.webp"
+              src={myImage}
               alt="Illustration"
             />
             <h1 className="text-5xl font-semibold home-text">
