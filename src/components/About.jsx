@@ -7,7 +7,7 @@ export default function About() {
       <div className="about-content max-w-[1200px] flex flex-col items-center mx-auto justify-center px-[10px]  ">
         <h2 className="text-5xl font-bold mb-10">About me</h2>
         <div className="about-left-right flex flex-wrap gap-10">
-          <div className="about-right w-full sm:w-[100%] overflow-hidden rounded-lg">
+          <div className="about-right w-full sm:w-[100%] lg:w-[30%] overflow-hidden rounded-lg">
             <img src={aboutImg} className="w-[100%]" alt="" />
           </div>
           <div className="about-left w-full sm:w-[65%] grid items-center">
