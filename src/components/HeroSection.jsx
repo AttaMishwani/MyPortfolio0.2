@@ -6,7 +6,7 @@ export const HeroSection = () => {
           <div className="">
             <img
               className="w-[240px] mx-auto mb-5"
-              src="src\assets\images\image.webp"
+              src="images\image.webp"
               alt="Illustration"
             />
             <h1 className="text-5xl font-semibold home-text">
