@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="w-full overflow-x-hidden bg-black p-[10px]  ">
+    <div className="w-full overflow-x-hidden bg-[#161513] p-[10px]  ">
       <div className="navbar-content overflow-x-hidden flex justify-between p-[10px] items-center max-w-[1200px] mx-auto">
         <Logo />
         <NavLinks showMenu={showMenu} />
